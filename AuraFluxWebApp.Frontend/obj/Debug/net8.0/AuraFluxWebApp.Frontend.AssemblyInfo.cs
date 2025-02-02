@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuraFluxWebApp.Frontend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+009804b4a418d1599c2c977a9f8544027c5e2867")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ef47ebfd699f7d7452793422021e39dbaea169c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuraFluxWebApp.Frontend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuraFluxWebApp.Frontend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

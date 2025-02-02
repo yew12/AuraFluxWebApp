@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oXUrmZk2o/wvt0NJ34llyuIqwHBYXypR4WRhPvqXN2A=",
+  "Hash": "UCydSGU4hNzh1DMaT1a7jvh6Ej8EOsDv4uNZXnFJ5Zk=",
   "Source": "AuraFluxWebApp.Frontend",
   "BasePath": "_content/AuraFluxWebApp.Frontend",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AuraFluxWebApp.Frontend/wwwroot",
       "Source": "AuraFluxWebApp.Frontend",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/obj/Debug/net8.0/scopedcss/bundle/AuraFluxWebApp.Frontend.styles.css",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/obj/Debug/net8.0/scopedcss/bundle/AuraFluxWebApp.Frontend.styles.css",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "AuraFluxWebApp.Frontend.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/obj/Debug/net8.0/scopedcss/bundle/AuraFluxWebApp.Frontend.styles.css"
+      "OriginalItemSpec": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/obj/Debug/net8.0/scopedcss/bundle/AuraFluxWebApp.Frontend.styles.css"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/obj/Debug/net8.0/scopedcss/projectbundle/AuraFluxWebApp.Frontend.bundle.scp.css",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/obj/Debug/net8.0/scopedcss/projectbundle/AuraFluxWebApp.Frontend.bundle.scp.css",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "AuraFluxWebApp.Frontend.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/obj/Debug/net8.0/scopedcss/projectbundle/AuraFluxWebApp.Frontend.bundle.scp.css"
+      "OriginalItemSpec": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/obj/Debug/net8.0/scopedcss/projectbundle/AuraFluxWebApp.Frontend.bundle.scp.css"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/app.css",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/app.css",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/css/carousel.css",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/css/carousel.css",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "css/carousel.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/css/carousel.css"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/css/home.css",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/css/home.css",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "css/home.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/css/home.css"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/css/NavBar.css",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/css/NavBar.css",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "css/NavBar.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/css/NavBar.css"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/DMSerifText-Italic.ttf",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/DMSerifText-Italic.ttf",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "fonts/DMSerifText-Italic.ttf",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot/fonts/DMSerifText-Italic.ttf"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/DMSerifText-Regular.ttf",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/DMSerifText-Regular.ttf",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "fonts/DMSerifText-Regular.ttf",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot/fonts/DMSerifText-Regular.ttf"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/FugazOne-Regular.ttf",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/FugazOne-Regular.ttf",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "fonts/FugazOne-Regular.ttf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot/fonts/FugazOne-Regular.ttf"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/Raleway-Italic.ttf",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/Raleway-Italic.ttf",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "fonts/Raleway-Italic.ttf",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot/fonts/Raleway-Italic.ttf"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/Raleway-Regular.ttf",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/Raleway-Regular.ttf",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "fonts/Raleway-Regular.ttf",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot/fonts/Raleway-Regular.ttf"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/app-store-icon.png",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/app-store-icon.png",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "icons/app-store-icon.png",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot/icons/app-store-icon.png"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/google-play-icon.png",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/google-play-icon.png",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "icons/google-play-icon.png",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot/icons/google-play-icon.png"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/google-play-icon.svg",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/google-play-icon.svg",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "icons/google-play-icon.svg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot/icons/google-play-icon.svg"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/instagram-icon.png",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/instagram-icon.png",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "icons/instagram-icon.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot/icons/instagram-icon.png"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/instagram-icon.svg",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/instagram-icon.svg",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "icons/instagram-icon.svg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot/icons/instagram-icon.svg"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/ios-app-store-icon.svg",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/ios-app-store-icon.svg",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "icons/ios-app-store-icon.svg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/icons/ios-app-store-icon.svg"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/tiktok-icon.png",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/tiktok-icon.png",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "icons/tiktok-icon.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot/icons/tiktok-icon.png"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/images/1.0.15-Feed.PNG",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/images/1.0.15-Feed.PNG",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "images/1.0.15-Feed.PNG",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot/images/1.0.15-Feed.PNG"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/images/1.0.15-Home.PNG",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/images/1.0.15-Home.PNG",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "images/1.0.15-Home.PNG",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot/images/1.0.15-Home.PNG"
     },
     {
-      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/images/1.0.15-Profile.PNG",
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/images/1.0.15-Profile.PNG",
       "SourceId": "AuraFluxWebApp.Frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
       "BasePath": "_content/AuraFluxWebApp.Frontend",
       "RelativePath": "images/1.0.15-Profile.PNG",
       "AssetKind": "All",

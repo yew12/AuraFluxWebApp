@@ -1,83 +1,83 @@
 {
   "Files": [
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/obj/Debug/net8.0/scopedcss/projectbundle/AuraFluxWebApp.Frontend.bundle.scp.css",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/obj/Debug/net8.0/scopedcss/projectbundle/AuraFluxWebApp.Frontend.bundle.scp.css",
       "PackagePath": "staticwebassets/AuraFluxWebApp.Frontend.bundle.scp.css"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/app.css",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/app.css",
       "PackagePath": "staticwebassets/app.css"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/css/NavBar.css",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/css/NavBar.css",
       "PackagePath": "staticwebassets/css/NavBar.css"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/css/carousel.css",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/css/carousel.css",
       "PackagePath": "staticwebassets/css/carousel.css"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/css/home.css",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/css/home.css",
       "PackagePath": "staticwebassets/css/home.css"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/DMSerifText-Italic.ttf",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/DMSerifText-Italic.ttf",
       "PackagePath": "staticwebassets/fonts/DMSerifText-Italic.ttf"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/DMSerifText-Regular.ttf",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/DMSerifText-Regular.ttf",
       "PackagePath": "staticwebassets/fonts/DMSerifText-Regular.ttf"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/FugazOne-Regular.ttf",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/FugazOne-Regular.ttf",
       "PackagePath": "staticwebassets/fonts/FugazOne-Regular.ttf"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/Raleway-Italic.ttf",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/Raleway-Italic.ttf",
       "PackagePath": "staticwebassets/fonts/Raleway-Italic.ttf"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/Raleway-Regular.ttf",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/fonts/Raleway-Regular.ttf",
       "PackagePath": "staticwebassets/fonts/Raleway-Regular.ttf"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/app-store-icon.png",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/app-store-icon.png",
       "PackagePath": "staticwebassets/icons/app-store-icon.png"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/google-play-icon.png",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/google-play-icon.png",
       "PackagePath": "staticwebassets/icons/google-play-icon.png"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/google-play-icon.svg",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/google-play-icon.svg",
       "PackagePath": "staticwebassets/icons/google-play-icon.svg"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/instagram-icon.png",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/instagram-icon.png",
       "PackagePath": "staticwebassets/icons/instagram-icon.png"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/instagram-icon.svg",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/instagram-icon.svg",
       "PackagePath": "staticwebassets/icons/instagram-icon.svg"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/ios-app-store-icon.svg",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/ios-app-store-icon.svg",
       "PackagePath": "staticwebassets/icons/ios-app-store-icon.svg"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/tiktok-icon.png",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/icons/tiktok-icon.png",
       "PackagePath": "staticwebassets/icons/tiktok-icon.png"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/images/1.0.15-Feed.PNG",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/images/1.0.15-Feed.PNG",
       "PackagePath": "staticwebassets/images/1.0.15-Feed.PNG"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/images/1.0.15-Home.PNG",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/images/1.0.15-Home.PNG",
       "PackagePath": "staticwebassets/images/1.0.15-Home.PNG"
     },
     {
-      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/wwwroot/images/1.0.15-Profile.PNG",
+      "Id": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/images/1.0.15-Profile.PNG",
       "PackagePath": "staticwebassets/images/1.0.15-Profile.PNG"
     },
     {

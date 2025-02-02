@@ -9,51 +9,51 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AuraFluxWebApp.Frontend
 build_property.RootNamespace = AuraFluxWebApp.Frontend
-build_property.ProjectDir = /Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/
+build_property.ProjectDir = /Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend
+build_property.MSBuildProjectDirectory = /Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/Components/App.razor]
+[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/Components/Layout/Footer.razor]
+[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/Components/Layout/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvRm9vdGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/Components/Layout/NavBar.razor]
+[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/Components/Layout/NavBar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2QmFyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/Components/Pages/Error.razor]
+[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/Components/Pages/Home/ContactForm.razor]
+[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/Components/Pages/Home/ContactForm.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lL0NvbnRhY3RGb3JtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/Components/Pages/Home/Home.razor]
+[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/Components/Pages/Home/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lL0hvbWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/Components/Routes.razor]
+[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/Components/Shared/Carousel.razor]
+[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/Components/Shared/Carousel.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9TaGFyZWQvQ2Fyb3VzZWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/Components/_Imports.razor]
+[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/Components/Layout/MainLayout.razor]
+[/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-arsex9vmz1

@@ -1,4 +1,7 @@
 ﻿@using AuraFluxWebApp.Frontend.Models
+@using MailKit
+@using MimeKit
+@using MailKit.Net.Smtp
 @rendermode InteractiveServer
 
 <EditForm Model="@contactForm" OnValidSubmit="HandleContactFormSubmit">
@@ -7,35 +10,78 @@
     <div class="mb-3 col-12 col-md-8 d-flex flex-column text-start mx-auto">
         <label for="name" class="dm-serif form-label fs-5">Name:</label>
         <InputText id="name" class="form-control" @bind-Value="contactForm.Name" />
+        <ValidationMessage For="() => contactForm.Name" />
+    </div>
+    
+    <div class="mb-3 col-12 col-md-8 d-flex flex-column text-start mx-auto">
+        <label for="subject" class="dm-serif form-label fs-5">Subject:</label>
+        <InputText id="subject" class="form-control" @bind-Value="contactForm.Subject" />
+        <ValidationMessage For="() => contactForm.Subject" />
     </div>
 
     <div class="mb-3 col-12 col-md-8 d-flex flex-column text-start mx-auto">
         <label for="email" class="dm-serif form-label fs-5">Email:</label>
         <InputText id="email" class="form-control" @bind-Value="contactForm.Email" />
+        <ValidationMessage For="() => contactForm.Email" />
     </div>
 
     <div class="mb-3 col-12 col-md-8 d-flex flex-column text-start mx-auto">
         <label for="message" class="dm-serif form-label fs-5">Message:</label>
         <InputTextArea id="message" class="form-control" style="height: 100px; max-height: 250px;"  @bind-Value="contactForm.Message" />
+        <ValidationMessage For="() => contactForm.Message" />
     </div>
 
+    <div class="mb-3 col-12 col-md-8 d-flex flex-column text-start mx-auto @MessageClass">
+        @Message
+    </div>
     <button type="submit" class="btn d-flex align-items-center col-12 col-md-8 d-flex flex-column text-start mx-auto" style=" background-color: #005a42; color: white;" >Send</button>
 </EditForm>
 
 
 
 @code {
+
     private ContactFormDetails contactForm = new ContactFormDetails();
-    private string message = "";
+    private string Message = "";
+    private string MessageClass = "";
+
     private void HandleContactFormSubmit() 
     {
+        Message = "";
+        var message = new MimeMessage();
+        message.From.Add(new MailboxAddress(contactForm.Name, contactForm.Email));
+        message.To.Add(new MailboxAddress("AuraFlux LLC", "contact@aurafluxllc.com" ));
+        message.Subject = contactForm.Subject;
+        message.Body = new TextPart(MimeKit.Text.TextFormat.Html) 
+        {
+            Text = contactForm.Message
+        };
 
+        try 
+        {
+            using var smtp = new SmtpClient();
+            smtp.Connect("smtp.ethereal.email", 587, MailKit.Security.SecureSocketOptions.StartTls);
+            smtp.Authenticate("alysson.wyman@ethereal.email", "FdPE3YTfadmgebMcQB");
+            smtp.Send(message);
+            smtp.Disconnect(true);
+
+            Message = "Message sent successfully.";
+            MessageClass = "text-success";
+            contactForm = new ContactFormDetails();
+
+            StateHasChanged(); // Force UI to re-render
+        } 
+        catch (Exception ex) 
+        {
+            Message = ex.Message;
+            MessageClass = "text-danger";
+        }     
     }
 
     private void HandleInvalidSubmit() 
     {
         // clear instances
         contactForm = new ContactFormDetails();
-        message = "";
+        Message = "";
     }
 }

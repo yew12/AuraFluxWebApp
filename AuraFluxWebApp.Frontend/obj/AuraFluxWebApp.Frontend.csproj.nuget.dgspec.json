@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/AuraFluxWebApp.Frontend.csproj": {}
+    "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/AuraFluxWebApp.Frontend.csproj": {}
   },
   "projects": {
-    "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/AuraFluxWebApp.Frontend.csproj": {
+    "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/AuraFluxWebApp.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/AuraFluxWebApp.Frontend.csproj",
+        "projectUniqueName": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/AuraFluxWebApp.Frontend.csproj",
         "projectName": "AuraFluxWebApp.Frontend",
-        "projectPath": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/AuraFluxWebApp.Frontend.csproj",
+        "projectPath": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/AuraFluxWebApp.Frontend.csproj",
         "packagesPath": "/Users/gagebuss/.nuget/packages/",
-        "outputPath": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp.Frontend/obj/",
+        "outputPath": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/gagebuss/.nuget/NuGet/NuGet.Config"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
