@@ -1,48 +1,44 @@
-# Ignore build output
-bin/
-obj/
+# Ignore build output for AuraFlux.Frontend
+/AuraFlux.Frontend/bin
+/AuraFlux.Frontend/obj
 
 # Ignore user-specific and system files
-*.user
-*.suo
-*.vsp
-*.vspx
-*.vspscc
-*.vssscc
-*.cache
-*.csproj.user
-*.pidb
-*.log
-*.ncb
-*.sqlite
-*.sdf
-*.opendb
-
-# Ignore Rider/JetBrains settings
-.idea/
-*.iml
-
-# Ignore Visual Studio specific files
+/AuraFlux.Frontend/*.user
+/AuraFlux.Frontend/*.suo
+/AuraFlux.Frontend/.vs/
 .vscode/
-.vs/
+
+# Ignore Blazor WebAssembly framework files
+/AuraFlux.Frontend/wwwroot/_framework/
+/AuraFlux.Frontend/wwwroot/css/app.css
+/AuraFlux.Frontend/wwwroot/css/bootstrap.min.css
+/AuraFlux.Frontend/wwwroot/dist/
+/AuraFlux.Frontend/wwwroot/node_modules/
+/AuraFlux.Frontend/wwwroot/vendor/
 
 # Ignore .NET Core secrets and settings
-appsettings.Development.json
-secrets.json
+/AuraFlux.Frontend/appsettings.Development.json
+/AuraFlux.Frontend/secrets.json
 
 # Ignore NuGet packages
-packages/
-*.nupkg
-project.lock.json
-project.assets.json
+/AuraFlux.Frontend/packages/
+/AuraFlux.Frontend/*.nupkg
+/AuraFlux.Frontend/project.lock.json
+/AuraFlux.Frontend/project.assets.json
 .nuget/
 
-# Ignore publish output
-wwwroot/css/app.css
-wwwroot/css/bootstrap.min.css
-wwwroot/_framework/
-wwwroot/dist/
-wwwroot/node_modules/
-wwwroot/vendor/
+# Ignore logs and temporary files
+/AuraFlux.Frontend/logs/
+/AuraFlux.Frontend/*.log
+/AuraFlux.Frontend/.DS_Store
+/AuraFlux.Frontend/Thumbs.db
 
-# Ignore Node and NPM
+# Ignore TypeScript/JavaScript build artifacts (if using frontend tools)
+/AuraFlux.Frontend/wwwroot/**/*.js.map
+/AuraFlux.Frontend/wwwroot/**/*.js
+/AuraFlux.Frontend/wwwroot/**/*.tsbuildinfo
+
+# Ignore deployment settings
+/AuraFlux.Frontend/publish/
+AuraFluxWebApp.Frontend/obj
+AuraFluxWebApp.Frontend/bin
