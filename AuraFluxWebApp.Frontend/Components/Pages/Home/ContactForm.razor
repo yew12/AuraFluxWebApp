@@ -1,0 +1,41 @@
+﻿@using AuraFluxWebApp.Frontend.Models
+@rendermode InteractiveServer
+
+<EditForm Model="@contactForm" OnValidSubmit="HandleContactFormSubmit">
+    <DataAnnotationsValidator />
+
+    <div class="mb-3 col-12 col-md-8 d-flex flex-column text-start mx-auto">
+        <label for="name" class="dm-serif form-label fs-5">Name:</label>
+        <InputText id="name" class="form-control" @bind-Value="contactForm.Name" />
+    </div>
+
+    <div class="mb-3 col-12 col-md-8 d-flex flex-column text-start mx-auto">
+        <label for="email" class="dm-serif form-label fs-5">Email:</label>
+        <InputText id="email" class="form-control" @bind-Value="contactForm.Email" />
+    </div>
+
+    <div class="mb-3 col-12 col-md-8 d-flex flex-column text-start mx-auto">
+        <label for="message" class="dm-serif form-label fs-5">Message:</label>
+        <InputTextArea id="message" class="form-control" style="height: 100px; max-height: 250px;"  @bind-Value="contactForm.Message" />
+    </div>
+
+    <button type="submit" class="btn d-flex align-items-center col-12 col-md-8 d-flex flex-column text-start mx-auto" style=" background-color: #005a42; color: white;" >Send</button>
+</EditForm>
+
+
+
+@code {
+    private ContactFormDetails contactForm = new ContactFormDetails();
+    private string message = "";
+    private void HandleContactFormSubmit() 
+    {
+
+    }
+
+    private void HandleInvalidSubmit() 
+    {
+        // clear instances
+        contactForm = new ContactFormDetails();
+        message = "";
+    }
+}

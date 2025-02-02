@@ -1,0 +1,42 @@
+.section-1 {
+    /* height: 100vh; */
+    /* min-height: 100vh; */
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px;
+    background-image: radial-gradient(75% 75% at 94% 14%, #005A42FF 0%, #005A42FF 25%, #00161000 99%),radial-gradient(75% 75% at -16% 78%, #005A42FF 0%, #005a42 26%, #001610FF 99%);
+}
+
+.color-white {
+    color: white;
+}
+
+.responsive-text {
+    font-size: 18px; /* Smaller font for mobile */
+}
+
+@media (min-width: 768px) {
+    .responsive-text {
+        font-size: 24px; /* Larger font for tablets and desktops */
+    }
+}
+
+.looreview-text { 
+    font-size: 10px;
+}
+
+@media (min-width: 768px) { /* medium screens */
+    .looreview-text {
+        font-size: 12px; /* Larger font for tablets and desktops */
+    }
+}
+@media (min-width: 992px) {  /* Large screens */
+    .looreview-text {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) {  /* Extra-large screens */
+    .looreview-text {
+        font-size: 22px;
+    }
+}
