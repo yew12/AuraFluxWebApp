@@ -1,4 +1,6 @@
 ﻿@page "/"
+@inject IJSRuntime JS
+@rendermode InteractiveServer
 
 <PageTitle>Home</PageTitle>
 
@@ -71,7 +73,7 @@
 </section>
 
 
-<section id="contact-us" class="section-4 d-flex flex-column justify-content-center alight-items-center vh-100 " >
+<section id="contactUs" class="section-4 d-flex flex-column justify-content-center alight-items-center vh-100 " >
     <div class="container text-center" >
         <div class="row d-flex flex-column-reverse flex-md-row">
             <div class="col d-flex flex-column" >
@@ -89,7 +91,8 @@
         "/images/1.0.15-Home.png",
         "/images/1.0.15-Feed.png",
         "/images/1.0.15-Profile.png"
-    };  
+    }; 
+
 }
 
 

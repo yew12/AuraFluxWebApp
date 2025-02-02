@@ -42,3 +42,10 @@
 /AuraFlux.Frontend/publish/
 AuraFluxWebApp.Frontend/obj
 AuraFluxWebApp.Frontend/bin
+/AuraFluxWebApp.Frontend/bin
+*.dll
+/AuraFluxWebApp.Frontend/bin
+/AuraFluxWebApp.Frontend/obj
+/AuraFluxWebApp.Frontend/obj
+/AuraFluxWebApp.Frontend/obj/Debug
+/AuraFluxWebApp.Frontend/obj/Debug/net8.0

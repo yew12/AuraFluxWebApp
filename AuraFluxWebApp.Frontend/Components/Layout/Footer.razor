@@ -1,11 +1,10 @@
 @namespace AuraFluxWebApp
+@inject IJSRuntime JS
+@rendermode InteractiveServer
 
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-        </a>
-        <span class="mb-3 mb-md-0 fugaz-font fs-4 color-green">2024 AuraFlux LLC</span>
+    <div class=" col-md-4 d-flex align-items-center" style="padding-left: 3%;">
+        <NavLink @onclick="async () => await NavigateToSection(home)" class=" text-decoration-none mb-3 mb-md-0 fugaz-font fs-4 color-green" style="" >2024 AuraFlux LLC</NavLink>
     </div>
 
     <!-- Centered Icons Section -->
@@ -28,17 +27,29 @@
     <div class="col-md-4 d-flex justify-content-end" style="padding-right: 3%;">
         <ul class="nav list-unstyled d-flex">
             <li class="ms-3">
-                <a href="/section-1" class="text-body-secondary text-decoration-none">Home</a>
+                <NavLink href="#" @onclick="async () => await NavigateToSection(home)" class="text-body-secondary text-decoration-none">Home</NavLink>
             </li>
             <li class="ms-3">
-                <a href="/terms-of-service" class="text-body-secondary text-decoration-none">About</a>
+                <NavLink href="#" @onclick="async () => await NavigateToSection(about)" class="text-body-secondary text-decoration-none">About</NavLink>
             </li>
             <li class="ms-3">
-                <a href="/terms-of-service" class="text-body-secondary text-decoration-none">Projects</a>
+                <NavLink href="#" @onclick="async () => await NavigateToSection(projects)" class="text-body-secondary text-decoration-none">Projects</NavLink>
             </li>
             <li class="ms-3">
-                <a href="/terms-of-service" class="text-body-secondary text-decoration-none">Contact us</a>
+                <NavLink href="#" @onclick="async () => await NavigateToSection(contactUs)" class="text-body-secondary text-decoration-none">Contact us</NavLink>
             </li>
         </ul>
     </div>
 </footer>
+
+@code {
+    private string home = "home";
+    private string about = "about";
+    private string projects = "projects";
+    private string contactUs = "contactUs";
+    
+    private async Task NavigateToSection(string section) 
+    {
+        await JS.InvokeVoidAsync("ScrollTo", section);
+    }
+}
