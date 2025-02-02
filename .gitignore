@@ -1,6 +1,48 @@
-*/appsettings.Development.json
-*/bin
-*/obj
+# Ignore build output
+bin/
+obj/
+
+# Ignore user-specific and system files
+*.user
+*.suo
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
 *.cache
-*.cs
-*.dll
+*.csproj.user
+*.pidb
+*.log
+*.ncb
+*.sqlite
+*.sdf
+*.opendb
+
+# Ignore Rider/JetBrains settings
+.idea/
+*.iml
+
+# Ignore Visual Studio specific files
+.vscode/
+.vs/
+
+# Ignore .NET Core secrets and settings
+appsettings.Development.json
+secrets.json
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+.nuget/
+
+# Ignore publish output
+wwwroot/css/app.css
+wwwroot/css/bootstrap.min.css
+wwwroot/_framework/
+wwwroot/dist/
+wwwroot/node_modules/
+wwwroot/vendor/
+
+# Ignore Node and NPM

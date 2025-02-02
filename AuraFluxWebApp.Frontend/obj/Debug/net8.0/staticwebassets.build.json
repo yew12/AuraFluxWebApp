@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UCydSGU4hNzh1DMaT1a7jvh6Ej8EOsDv4uNZXnFJ5Zk=",
+  "Hash": "tmmngtl9R47Z2m+mmvWFBZ84SGJG11UAiPELRM//cPE=",
   "Source": "AuraFluxWebApp.Frontend",
   "BasePath": "_content/AuraFluxWebApp.Frontend",
   "Mode": "Default",
@@ -414,6 +414,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/1.0.15-Profile.PNG"
+    },
+    {
+      "Identity": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/js/site.js",
+      "SourceId": "AuraFluxWebApp.Frontend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gagebuss/Projects/AuraFluxLLCWebApp/AuraFluxWebApp/AuraFluxWebApp.Frontend/wwwroot/",
+      "BasePath": "_content/AuraFluxWebApp.Frontend",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/site.js"
     }
   ]
 }
