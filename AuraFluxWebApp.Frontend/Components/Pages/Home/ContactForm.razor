@@ -60,8 +60,11 @@
         try 
         {
             using var smtp = new SmtpClient();
-            smtp.Connect("smtp.ethereal.email", 587, MailKit.Security.SecureSocketOptions.StartTls);
-            smtp.Authenticate("alysson.wyman@ethereal.email", "FdPE3YTfadmgebMcQB");
+            smtp.Connect("smtp.gmail.com", 587, MailKit.Security.SecureSocketOptions.StartTls);
+            smtp.Authenticate(
+                Environment.GetEnvironmentVariable("GMAIL_USER"),
+                Environment.GetEnvironmentVariable("GMAIL_APP_PASSWORD")
+            );
             smtp.Send(message);
             smtp.Disconnect(true);
 
