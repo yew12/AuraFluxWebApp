@@ -50,7 +50,7 @@
         Message = "";
         var message = new MimeMessage();
         message.From.Add(new MailboxAddress(contactForm.Name, contactForm.Email));
-        message.To.Add(new MailboxAddress("AuraFlux LLC", "contact@aurafluxllc.com" ));
+        message.To.Add(new MailboxAddress("AuraFlux LLC", "gagebuss@aurafluxllc.com" ));
         message.Subject = contactForm.Subject;
         message.Body = new TextPart(MimeKit.Text.TextFormat.Html) 
         {
