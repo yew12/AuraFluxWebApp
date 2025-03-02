@@ -13,6 +13,20 @@
     src: url("../fonts/Raleway-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Poppins-BoldItalic";
+    src: url("../fonts/Poppins-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+.roboto-regular {
+    font-family: "Roboto-Regular";
+}
+
 .dm-serif {
     font-family: "DM-Serif-Text, sans-serif";
 }
@@ -24,6 +38,10 @@
 
 .raleway-font {
     font-family: "Raleway-Text", sans-serif;
+}
+
+.poppins-bolditalic {
+    font-family: "Poppins-BoldItalic", sans-serif;
 }
 
 /* define css variable under this root */

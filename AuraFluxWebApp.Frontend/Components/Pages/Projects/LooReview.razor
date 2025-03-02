@@ -1,0 +1,111 @@
+@page "/LooReview"
+
+<PageTitle>LooReview</PageTitle>
+
+<div class="container py-5">
+    <h1 class="poppins-bolditalic fw-bold" style="color: #4366FB; font-size: 50px; padding-top: 1em;" id="title">
+        LooReview
+    </h1>
+
+    <div class="row">
+        <!-- Text Section -->
+        <div class="col-md-6 col-12 roboto-regular text-start fs-5" style="padding-top: 5em;" id="text">
+            <p>
+                LooReview is the ultimate solution to finding restrooms on the go! In bustling cities, 
+                it’s often a challenge to find a restroom when you need it most. Many places don’t allow 
+                you to use their facilities, others require a purchase, and sometimes you even walk by a 
+                restroom without realizing it’s there. We’re here to change that. With LooReview, 
+                you can quickly locate available restrooms nearby, saving you time and reducing stress. 
+                Spend less time searching and more time enjoying life! Download it now on the iOS App Store and Google Play Store!
+            </p>
+            <div class="d-flex justify-content-start py-2">
+                <div class="px-2">
+                    <a href="https://apps.apple.com/us/app/looreview-by-auraflux/id6499471502">
+                        <img src="icons/app-store-icon.png" alt="Icon" width="30" height="30" />
+                    </a>
+                </div>
+                <div class="px-2">
+                    <a href="https://play.google.com/store/apps/details?id=com.gagebuss7.BathroomBuddyapp&hl=en_US">
+                        <img src="icons/google-play-icon.png" alt="Icon" width="30" height="30" />
+                    </a>
+                </div>
+                <div class="px-2">
+                    <a href="https://www.instagram.com/aurafluxllc/">
+                        <img src="icons/instagram-icon.png" alt="Icon" width="30" height="30" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Section -->
+        <div class="col-md-6 col-12 d-flex justify-content-center align-items-center" style="position: relative; z-index: 1;" id="image">
+            <img src="images/1.0.16-Home-portrait.png" alt="LooReview" class="img-fluid" style="max-width: 320px; height: auto;">
+        </div>
+    </div>
+
+    <!-- Circle container (behind the image) -->
+    <div class="circle-container" style="position: absolute; z-index: -90; overflow: hidden; top: 60%; left: 100%; transform: translate(-70%, -40%) rotate(55deg);">
+        <!-- Generate 5x5 grid of circles -->
+        @for (int row = 0; row < 5; row++)
+        {
+            @for (int col = 0; col < 5; col++)
+            {
+                <div class="circle" style="left: @(col * 80)px; bottom: @(row * 80)px;"></div>
+            }
+        }
+    </div>
+</div>
+
+<!-- Style block for CSS -->
+<style>
+    .circle-container {
+        position: absolute;        
+        z-index: 0; /* Ensures circles stay behind the phone */
+        width: 500px; /* Width of the circle grid */
+        height: 500px; /* Height of the circle grid */
+        overflow: hidden; /* Keeps circles from overflowing */
+    }
+
+    .circle {
+        position: absolute;
+        background-color: #4366FB; /* Color of the circle */
+        width: 50px; /* Size of the circle */        
+        height: 50px; /* Size of the circle */
+        border-radius: 50%; /* Makes it circular */
+    }
+
+    /* Mobile responsive adjustments */
+    @@media (max-width: 768px) {
+        /* Make image smaller and place it under the text */
+        .col-12 #image {
+            order: -1; /* Move the image below the text */
+            max-width: 220px; /* Smaller image on mobile */
+            margin-top: 20px;
+        }
+
+        /* Make the text smaller on mobile */
+        #text {
+            font-size: 1rem; /* Smaller text */
+            padding-top: 1em;
+        }
+
+        #title {
+            font-size: 35px; /* Smaller title on mobile */
+        }
+
+        .circle-container {
+            width: 300px; /* Smaller circle grid */
+            height: 300px; /* Smaller circle grid */
+        }
+
+        .circle {
+            width: 30px; /* Smaller circles */
+            height: 30px; /* Smaller circles */
+        }
+    }
+
+</style>
+
+@code {
+
+}

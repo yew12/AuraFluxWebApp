@@ -40,3 +40,22 @@
         font-size: 22px;
     }
 }
+
+.moreInfo {
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.moreInfo:hover {
+    transform: translateX(10px); /* Slide right effect */
+    color: #007bff; /* Optional text color change */
+}
+
+.arrow-img {
+    margin-left: 15px;
+    transition: transform 0.3s ease; /* Smooth scaling effect for the image */
+}
+
+.moreInfo:hover .arrow-img {
+    transform: scale(1.1); /* Scale up the arrow when hovering */
+}
+

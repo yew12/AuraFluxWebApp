@@ -1,5 +1,6 @@
 ﻿@page "/"
 @inject IJSRuntime JS
+@inject NavigationManager Navigation
 @rendermode InteractiveServer
 
 <PageTitle>Home</PageTitle>
@@ -34,39 +35,20 @@
                 <h1 class="fugaz-font color-green">Projects</h1>
             </div>
             <div class="col d-flex flex-column justify-content-center align-items-center">
-                <h1 class="raleway-font fw-bold" style="color: #4366FB;" >LooReview</h1>
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col d-flex flex-column justify-content-start align-items-center" >
-                        <p class="text-center raleway-font looreview-text">
-                            LooReview is an early access mobile app that helps you quickly find public, accessible restrooms 
-                            in New York City. Easily search nearby, read reviews, and share ratings-all in a simple, 
-                            user-friendly app. 
-                            <br><br> 
-                            We currently have the most comprehensive restroom data in NYC! 
-                            Want the same for your city? Reach out to us, and we’ll make it happen!
+                <h1 class="poppins-bolditalic fw-bold" style="color: #4366FB; font-size: 50px;" >LooReview</h1>
+                <div class="col d-flex justify-content-center align-items-center">                    
+                   <p class="" >
+                        <p class="text-start fs-5" >
+                           LooReview is a mobile app that helps you find and review public restrooms worldwide. 
+                           In NYC, where finding a restroom can be a challenge, LooReview makes it easy to locate clean, accessible bathrooms. Currently focused on the NYC Metro area, with plans for global expansion!
                         </p>
-                        <div class="d-flex justify-content-end py-2" >
-                            <div class="px-2">
-                                <a href="https://apps.apple.com/us/app/looreview-by-auraflux/id6499471502">
-                                    <img src="icons/app-store-icon.png" alt="Icon" width="30" height="30" />
-                                </a>
-                            </div>
-                            <div class="px-2">
-                                <a href="https://play.google.com/store/apps/details?id=com.gagebuss7.BathroomBuddyapp&hl=en_US">
-                                    <img src="icons/google-play-icon.png" alt="Icon" width="30" height="30" />
-                                </a>
-                            </div>
-                            <div class="px-2" >
-                                <a href="https://www.instagram.com/aurafluxllc/">
-                                    <img src="icons/instagram-icon.png" alt="Icon" width="30" height="30" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-5 col-4">
-                        <Carousel Items=@looReviewImgs />
-                    </div>
-                </div>                
+                        <a @onclick="NavigateToLooReview" href="#" class="moreInfo link-body-emphasis fs-4 d-flex align-items-center" 
+                        style="text-decoration: none; display: inline-flex; align-items: center;">
+                            More Info
+                            <img src="icons/right-arrow.png" alt="right-arrow-icon" width="30" height="30" class="arrow-img" />
+                        </a>
+                    </p>
+                </div>            
             </div>           
         </div>
     </div>
@@ -87,11 +69,12 @@
 </section>
 
 @code {
-    private List<string> looReviewImgs = new List<string> {
-        "/images/1.0.15-Home.png",
-        "/images/1.0.15-Feed.png",
-        "/images/1.0.15-Profile.png"
-    }; 
+    
+
+    private void NavigateToLooReview()
+    {
+        Navigation.NavigateTo("/LooReview");
+    }
 
 }
 
